@@ -40,7 +40,7 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HO
 
 ### Android Project Checkout and Import steps (Eclipse)
 1. Clone <b>athena-androidph2.0</b> to your root directory <br>
-```$ git clone https://github.com/magagan/athena-androidph2.0.git```
+```$ git clone https://github.com/mcalizo/Athena-AndroidPH```
 2. Using eclipse IDE, right click on <b>Project Explorer</b>
 3. Select <b>Import</b>
 4. Expand <b>Maven</b> and select <b>Existing Maven Projects</b>
