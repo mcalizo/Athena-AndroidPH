@@ -26,7 +26,7 @@
 2. Configure ANDROID_HOME in ```~/.bash_profile``` (OSx User), ```~/.bashrc``` (Linux User)
 ```
 example:
-export ANDROID_HOME=/Users/mcgagan/android-sdks
+export ANDROID_HOME=/Users/mcalizo/android-sdks
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools 
 ```
 
