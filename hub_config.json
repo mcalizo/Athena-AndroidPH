@@ -1,0 +1,16 @@
+{
+  "host" : "127.0.0.1",
+  "port": 4444,
+  "newSessionWaitTimeout": -1,
+  "servlets" : [],
+  "withoutServlets": [],
+  "custom": {},
+  "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+  "throwOnCapabilityNotPresent": true,
+  "cleanUpCycle": 50000,
+  "role": "hub",
+  "debug": false,
+  "browserTimeout": 30000,
+  "timeout": 4000,
+  "jettyMaxThreads" : -1
+}

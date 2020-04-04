@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android-App OLXPH" verbose="2" parallel="tests" thread-count="2">
+	
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.18.1</version>
+			<configuration>
+				<suiteXmlFiles>
+				  	<suiteXmlFile>testng.xml</suiteXmlFile>
+				</suiteXmlFiles>
+			</configuration>
+		</plugin>
+	</plugins> 
+		
+	<test name="Account Logged In Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.101:5555"/> -->
+		<classes>
+			<class name="com.olx.TestLoginContext"/>
+		</classes>
+	</test>
+	
+	<test name="Create Account Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.102:5555"/> -->
+		<classes>
+			<class name="com.olx.TestCreateAccount"/>
+		</classes>
+	</test>  
+	 
+	<test name="User Profile Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.103:5555"/> -->
+		<classes>
+			<class name="com.olx.TestUserProfile"/>
+		</classes>
+	</test>
+	
+	<test name="Search Ad Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.101:5555"/>  -->
+		<classes>
+			<class name="com.olx.TestSearchAd"/>
+		</classes>
+	</test> 
+
+	<test name="Ad Details Test" preserve-order="false">
+		<!-- <parameter name="udid" value="192.168.57.101:5555"/> -->
+        <classes>
+            <class name="com.olx.TestAdDetailsContext"/>
+        </classes>
+	</test>
+	
+	<test name="Manage Ads Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.101:5555"/> -->
+		<classes>
+			<class name="com.olx.TestManageAd"/>
+		</classes>
+	</test>
+	
+	<test name="Filters Test" preserve-order="false">
+	    <!-- <parameter name="udid" value="192.168.57.101:5555"/> -->
+		<classes>
+			<class name="com.olx.TestFilters"/>
+		</classes>
+	</test>	
+	
+	<test name="Chat Seller Test" preserve-order="false">
+	   	<!-- <parameter name="udid" value="192.168.57.101:5555"/> -->
+		<classes>
+			<class name="com.olx.TestChat"/>
+		</classes>
+	</test>	
+	
+</suite>
