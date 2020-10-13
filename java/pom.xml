@@ -21,7 +21,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<cucumber.version>1.2.4</cucumber.version>
 		<appium.version>4.1.2</appium.version>
 		<allure.version>1.4.16</allure.version>
